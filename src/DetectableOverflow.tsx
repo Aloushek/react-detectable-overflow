@@ -45,8 +45,8 @@ export class DetectableOverflow extends React.Component<Props, States> {
     }
 
     const newState =
-      this.ref.current.offsetWidth !== this.ref.current.scrollWidth ||
-      this.ref.current.offsetHeight !== this.ref.current.scrollHeight;
+      this.ref.current.offsetWidth < this.ref.current.scrollWidth ||
+      this.ref.current.offsetHeight < this.ref.current.scrollHeight;
 
     if (newState === this.state.isOverflowed) {
       return;

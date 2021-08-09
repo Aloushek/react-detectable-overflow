@@ -1,3 +1,6 @@
+# Fork changes
+- correct detection while zoomed out
+
 # React Detectable Overflow
 
 [![Circle Status](https://circleci.com/gh/h-kanazawa/react-detectable-overflow.svg?style=shield&circle-token=bdff2eda82abf6802195c4c9935852b1f276745f)](https://circleci.com/gh/h-kanazawa/react-detectable-overflow)
