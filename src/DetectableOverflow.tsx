@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { default as ReactResizeDetector } from 'react-resize-detector';
+import { default as ReactResizeDetector } from 'react-resize-detector/build/withPolyfill';
 
 export interface Props {
   tag?: string;
