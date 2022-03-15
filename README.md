@@ -1,5 +1,6 @@
 # Fork changes
 - correct detection while zoomed out
+- react-resize-detector with polyfill (https://caniuse.com/resizeobserver)
 
 # React Detectable Overflow
 
