@@ -6,6 +6,7 @@ export interface Props {
   style?: object;
   className?: string;
   onChange?: (isOverflowed: boolean) => void;
+  children: React.ReactNode;
 }
 
 export interface States {

@@ -1,6 +1,6 @@
 {
   "name": "react-detectable-overflow",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "A React component that informs when the overflowed status is changed.",
   "author": {
     "name": "Hotaka Kanazawa",
@@ -31,14 +31,14 @@
     "@types/enzyme": "^3.10.9",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/jest": "^26.0.24",
-    "@types/react": "^17.0.14",
-    "@types/react-dom": "^17.0.9",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
     "@types/sinon": "^7.5.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "jest": "26.6.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rimraf": "^3.0.2",
     "sinon": "^8.0.4",
     "ts-jest": "26.5.0",
@@ -46,10 +46,6 @@
   },
   "dependencies": {
     "react-resize-detector": "^6.7.4"
-  },
-  "peerDependencies": {
-    "react": ">=16.0.0",
-    "react-dom": ">=16.0.0"
   },
   "jest": {
     "transform": {
